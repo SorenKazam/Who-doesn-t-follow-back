@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who doesn't follow back</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+  </head>
+  <body>
+    <section class="header">
+      <h1>Who Doesn't Follow Back!</h1>
+      <p>Find out who doesn't follow you back on Instagram</p>
+    </section>
+    <section class="app">
+      <button id="goTopBtn" class="button goTopBtn">Top</button>
+      <h2>Lists</h2>
+      <div class="lists">
+        <textarea
+          name=""
+          id="list1"
+          class="list"
+          rows="20"
+          placeholder="Followers"
+        ></textarea>
+        <textarea
+          name=""
+          id="list2"
+          class="list"
+          rows="20"
+          placeholder="Following"
+        ></textarea>
+      </div>
+      <span id="alertSpan"></span>
+      <div class="buttons">
+        <button id="buttonSubmit" class="button">Find out!</button>
+        <button id="buttonReset" class="button">Reset</button>
+        <button id="buttonHowWorks" class="button">How this works</button>
+      </div>
+      <div class="resultsContainer" id="resultsContainer"></div>
+      <div class="instructionsContainer" id="instructionsContainer" style="display: none;">
+        <section class="instruction">
+          <h2>Instructions how to use!</h2>
+          <h3>How to use this website!</h3>
+          <ol>
+            <li>Your Instagram needs to be in English</li>
+            <li>This Website is made to work only in Desktop! Accessing it on mobile may result in some bugs</li>
+            <li>Open your Instagram profile</li>
+            <li>Click on "Followers" to display your followers list</li>
+            <li>Copy from top to bottom all the people you have inside your "Followers" list!</li>
+            <li>Paste everything inside the first list</li>
+            <li>Do the same thing with the "Following" list from your profile</li>
+            <li>Click on "Find out!" button</li>
+            <li>If you followed the Instructions step-by-step, you should now see the "Results" table bellow!</li>
+          </ol>
+          <h3>Some troobleshotting</h3>
+          <ul>
+            <li>If you are reciving "List X is empty" is because you didnt paste the list inside the textarea</li>
+            <li>
+              If you are reciving "No followers found" message, is because the list you paste isnt in the right format!:
+            <ul>
+              <li>Make sure when you paste your followers or following list into the textarea that you have every person in the list and make sure you have "personID's profile picture" like this in the list! make sure that the "..'s profile picture" is in english! if it is not in english the code will not work! Make sure your Instagram is set to english!</li>
+            </ul>
+            <li>If you have some ideias to improve this project, feel free to pull request on <a href="#" target="_blank">Github</a></li>
+            </li>
+          </ul>
+          <h3>Privacy</h3>
+          <p>This website is totaly local, I do not collect  any data from your inputs, you can see how the code works in my github! (Link in the footer).</p>
+        </section>
+      </div>
+    </section>
+    <footer>
+      <p>Developed By Tiago Guerreiro AKA SorenKazam. <a href="https://github.com/SorenKazam" target="_blank">Github</a>.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

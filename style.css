@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+
+:root {
+  --main-bg-color: bisque;
+}
+
+* {
+  margin: 0px;
+  box-sizing: 0px;
+  font-family: "Rethink Sans", sans-serif;
+  transition: 0.5s;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
+}
+
+h2,
+h3 {
+  background-color: #ffc267;
+  padding: 15px 15px 15px 20px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+/* GO TOP BTN */
+.goTopBtn {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  opacity: 0.4;
+}
+
+.goTopBtn:hover {
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.header {
+  text-align: center;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.list {
+  width: 100%;
+  resize: none;
+  border: 1px solid rgb(167, 167, 167);
+  padding: 5px 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  background-color: rgb(255, 214, 154);
+  padding: 10px 20px;
+  margin: 20px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0.5px solid rgb(167, 167, 167);
+}
+
+span#alertSpan {
+  display: none;
+  /* background-color:  rgb(101, 189, 101); */
+  padding: 10px;
+  text-align: center;
+}
+
+/* RESULT TABLE */
+div.resultsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+td,
+th {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 8px;
+  text-align: center;
+}
+
+/* Make the table headers fixed */
+th {
+  position: sticky;
+  top: 0;
+  background-color: var(--main-bg-color);
+}
+
+td {
+  max-width: 200px;
+}
+
+td > a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  font-style: italic;
+}
+
+td > a::before {
+  content: "🔗 ";
+}
+
+td > a:hover {
+  text-decoration: underline;
+  font-size: larger;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr.mutual {
+  background-color: rgb(154, 255, 154);
+}
+
+tr.noFollowBack {
+  background-color: rgb(255, 154, 154);
+}
+
+tr.youDontFollowBack {
+  background-color: rgb(154, 215, 255);
+}
+
+/* HOW TO USE WEBSITE */
+div#instructionsContainer {
+  flex-wrap: wrap;
+  width: 95vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+li,
+p {
+  padding: 10px;
+}
+
+.instruction {
+  max-width: 800px;
+}
+
+footer {
+  display: flex;
+  width: 95vw;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
