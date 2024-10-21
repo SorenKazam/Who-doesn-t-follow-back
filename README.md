@@ -21,3 +21,20 @@ Easily find out who isn't following you back on Instagram!
 
 ## When You Follow Someone but They Don't Follow You Back
 ![Screenshot](https://github.com/user-attachments/assets/9f8edae2-0fc1-44ce-8f7b-01f16e5533e0)
+
+## How to setup in Instagram
+### Change your Instagram website to english
+![imagem](https://github.com/user-attachments/assets/d0603d01-3878-426e-9073-237eb6a80068)
+![imagem](https://github.com/user-attachments/assets/91967064-c46f-4518-9be7-674f4ff47496)
+![imagem](https://github.com/user-attachments/assets/b3208531-153d-4db3-a0d1-94a3853fe1f0)
+![imagem](https://github.com/user-attachments/assets/4a228166-a4e5-467a-b0fe-1b3e777f9eba)
+
+### Copying lists
+![imagem](https://github.com/user-attachments/assets/e1e88653-035b-4c96-8d1e-dc5c1089ec2a)
+Scroll to the end of the list
+![imagem](https://github.com/user-attachments/assets/1080b19f-77b2-4158-b9d4-ddae78d3d724)
+Click in a space area between the friend name and the button, and hit Ctrl + A (Everything should be selected!!!)
+![imagem](https://github.com/user-attachments/assets/cbdce6ed-c82d-4a98-a518-168af6115ffa)
+Now paste the Followers into the Followers Textarea, and the Following into the Following textarea (You should have all your friends there including the "`s profile picture"!)
+![imagem](https://github.com/user-attachments/assets/2f3cb99b-c8a1-45b8-b567-caaf0b8b399a)
+
