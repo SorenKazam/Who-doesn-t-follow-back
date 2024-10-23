@@ -31,10 +31,10 @@ Easily find out who isn't following you back on Instagram!
 
 ### Copying lists
 ![imagem](https://github.com/user-attachments/assets/e1e88653-035b-4c96-8d1e-dc5c1089ec2a)
-Scroll to the end of the list
+### Scroll to the end of the list
 ![imagem](https://github.com/user-attachments/assets/1080b19f-77b2-4158-b9d4-ddae78d3d724)
-Click in a space area between the friend name and the button, and hit Ctrl + A (Everything should be selected!!!)
+### Click in a space area between the friend name and the button, and hit Ctrl + A (Everything should be selected!!!)
 ![imagem](https://github.com/user-attachments/assets/cbdce6ed-c82d-4a98-a518-168af6115ffa)
-Now paste the Followers into the Followers Textarea, and the Following into the Following textarea (You should have all your friends there including the "`s profile picture"!)
+### Now paste the Followers into the Followers Textarea, and the Following into the Following textarea (You should have all your friends there including the "`s profile picture"!)
 ![imagem](https://github.com/user-attachments/assets/2f3cb99b-c8a1-45b8-b567-caaf0b8b399a)
 
